@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char[20] y;
+    char[20]=y;
     scanf("%s",&y);
     printf("You entered: %s",y);
     return 0;
