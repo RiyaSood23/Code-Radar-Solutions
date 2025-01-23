@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b;
-    if(a<=){
+    if(a<=b){
         printf("True");
     }
     else{
