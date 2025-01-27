@@ -7,9 +7,10 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);// xor operator is used
-    if(a^b || b^a){
+   // if(a^b ){
+     if (a>0&&b<0 || a<0 && b>0){
         printf("True");
-    }
+     }
     else{
         printf("False");
     }
