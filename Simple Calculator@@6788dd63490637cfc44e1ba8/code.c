@@ -13,17 +13,17 @@ int main() {
             printf("%d",a+b);
             break;
     }
-    case "-" //( x='-'){
+    case "-": //( x='-'){
         {
         printf("%d",a-b);
         break;
     }
-    case "*" //( x='*')
+    case "*": //( x='*')
     {
         printf("%d",a*b);
         break;
     }
-    case "/" //( x="/")
+    case "/" : //( x="/")
     {
         printf("%d",a/b);
         break;
