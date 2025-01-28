@@ -8,17 +8,25 @@ int main() {
     int a,b;
     char x;
     scanf("%d %d %c",&a,&b,&x);
-    if ( x='+'){
-        printf("%d",a+b);
+    case "+" : //( x='+'){
+        {
+            printf("%d",a+b);
+            break;
     }
-    else if( x='-'){
+    case "-" //( x='-'){
+        {
         printf("%d",a-b);
+        break;
     }
-    else if( x='*'){
+    case "*" //( x='*')
+    {
         printf("%d",a*b);
+        break;
     }
-    else if( x="/"){
+    case "/" //( x="/")
+    {
         printf("%d",a/b);
+        break;
     }
     return 0;
 }
