@@ -10,7 +10,7 @@ int main() {
     if(n>='A' && n<='Z'){
         printf("Uppercase");
     }
-    else //if(cha>='a' && cha<='z'){
+    else if(n>='a' && n<='z'){
        { printf("Lowercase");
     }
     else{
