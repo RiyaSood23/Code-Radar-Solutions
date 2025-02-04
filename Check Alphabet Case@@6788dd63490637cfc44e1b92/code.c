@@ -10,8 +10,8 @@ int main() {
     if(cha>=A && cha<=Z){
         printf("Uppercase");
     }
-    else if(cha>=a && cha<=z){
-        printf("Lowercase");
+    else //if(cha>=a && cha<=z){
+       { printf("Lowercase");
     }
     return 0;
 }
