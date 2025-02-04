@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    char cha;
-    scanf("%c",&cha);
-    if(cha>='A' && cha<='Z'){
+    char n;
+    scanf("%c",&n);
+    if(n>='A' && n<='Z'){
         printf("Uppercase");
     }
     else //if(cha>='a' && cha<='z'){
