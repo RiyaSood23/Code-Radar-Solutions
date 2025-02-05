@@ -6,8 +6,9 @@ char* welcome() {
 
 int main() {
     int n;
+    int mask=1<<(31);
     scanf("%d",&n);
-    if(n|1){
+    if(n & mask){
         printf("Set");
     }
     else{
