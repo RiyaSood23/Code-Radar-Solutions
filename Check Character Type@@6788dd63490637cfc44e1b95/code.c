@@ -13,13 +13,13 @@ int main() {
         }
         else{
             printf("Consonant");
-        }
+        }}
     else if(n>=0 && n<=9){
         printf("Digit");
     } 
     else{
         printf("Special Characters");
     }   
-    }
+    
     return 0;
 }
