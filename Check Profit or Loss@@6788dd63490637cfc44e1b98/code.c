@@ -10,11 +10,11 @@ int main() {
     if(sp>cp){
         printf("Profit");
     }
-    else if(sp==cp){
-        printf("No Profit No Loss");
+    else if(cp<sp){
+        printf("Loss");
     }
     else{
-        printf("Loss");
+        printf("No Profit No Loss");
     }
     return 0;
 }
