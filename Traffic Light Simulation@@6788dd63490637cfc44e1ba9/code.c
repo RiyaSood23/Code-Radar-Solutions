@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    if (a==R || a==G || a==Y){
+    if (a=='R' || a=='G' || a=='Y'){
     if(a=='R'){
         printf("Stop");
     }
