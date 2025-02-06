@@ -17,5 +17,8 @@ int main() {
     else {
         printf("Slow Down");
     }}
+    else{
+        printf("Invalid Output");
+    }
     return 0;
 }
