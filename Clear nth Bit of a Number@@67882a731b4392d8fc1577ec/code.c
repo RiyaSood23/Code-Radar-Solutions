@@ -5,10 +5,16 @@ char* welcome() {
 }
 
 int main() {
-    int x,i;
+    // int x,i;
+    // scanf("%d %d",&x,&i);
+    // // int bit=(a>>b)&0;
+    // // printf("%d",bit);
+    // int mask=1<<(i-1);
+    // x=x|mask;
+    // printf("%d",x);
+     int x;
+    int i;
     scanf("%d %d",&x,&i);
-    // int bit=(a>>b)&0;
-    // printf("%d",bit);
     int mask=1<<(i-1);
     x=x|mask;
     printf("%d",x);
