@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int m;
-    scanf("%d",m);
+    scanf("%d",&m);
     switch(m){
         case 1:
         printf("31");
@@ -27,7 +27,7 @@ int main() {
         printf("30");
          break;
         case 7:
-        printf("30");
+        printf("31");
          break;
         case 8 :
         printf("31");
