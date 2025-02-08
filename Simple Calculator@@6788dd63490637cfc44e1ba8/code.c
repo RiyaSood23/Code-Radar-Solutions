@@ -1,65 +1,28 @@
-// #include <stdio.h>
-
-// char* welcome() {
-//     return "Welcome to Code Radar!";
-// }
-
-// int main() {
-//     int a,b;
-//     char x;
-//     scanf("%d %d %c",&a,&b,&x);
-//     switch (x){
-//     case '+' : //( x='+'){
-//         {
-//             printf("%d",a+b);
-//             break;
-//     }
-//     case '-': //( x='-'){
-//         {
-//         printf("%d",a-b);
-//         break;
-//     }
-//     case '*': //( x='*')
-//     {
-//         printf("%d",a*b);
-//         break;
-//     }
-//     case '/' : //( x="/")
-//     {
-//         printf("%d",a/b);
-//         break;
-//     }}
-//     return 0;
-// }
 #include <stdio.h>
 
 int main() {
+    int a, b;
     char op;
-    double num1, num2;
-    
-    printf("Enter operator (+, -, *, /): ");
-    scanf(" %c", &op);
-    printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);
-
-    switch(op) {
-        case '+':
-            printf("Result: %.2lf\n", num1 + num2);
+    scanf("%d %d %c", &a, &b, &op);
+    switch (op) {
+        case '+': 
+            printf("%d\n", a + b);
             break;
-        case '-':
-            printf("Result: %.2lf\n", num1 - num2);
+        case '-': 
+            printf("%d\n", a - b);
             break;
-        case '*':
-            printf("Result: %.2lf\n", num1 * num2);
+        case '*': 
+            printf("%d\n", a * b);
             break;
-        case '/':
-            if (num2 != 0)
-                printf("Result: %.2lf\n", num1 / num2);
-            else
-                printf("Error: Division by zero!\n");
+        case '/': 
+            if (b == 0) {
+                printf("Error\n");
+            } else {
+                printf("%d\n", a / b);
+            }
             break;
         default:
-            printf("Invalid operator!\n");
+            printf("Invalid");
     }
 
     return 0;
