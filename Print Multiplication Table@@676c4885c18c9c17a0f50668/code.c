@@ -7,9 +7,9 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    for (i=1;i<=n;i++){
-        int mul=n*i;
-        printf("%d*%d=%d",n,i,mul);
+    for (i=1; i<=10 ;i++){
+        //int mul=n*i;
+        printf("%d * %d= %d",n,i,n*i);
     }
     return 0;
 }
