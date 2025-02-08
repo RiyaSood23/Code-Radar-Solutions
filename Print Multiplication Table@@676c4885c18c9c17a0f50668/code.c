@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int n;
+    int n,i;
     scanf("%d",&n);
     for (i=1; i<=10 ;i++){
         //int mul=n*i;
