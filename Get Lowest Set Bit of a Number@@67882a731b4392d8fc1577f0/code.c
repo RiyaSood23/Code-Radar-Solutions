@@ -5,7 +5,7 @@ int main() {
 
     scanf("%d", &n);
 
-        while ((n & 1) == 0) { // Keep shifting right until we find a set bit
+        while ((n & 1) == 0) { 
             n >>= 1;
             position++;
         
