@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
+    int x,i;
+    scanf("%d %d",&x,&i);
     // int bit=(a>>b)&0;
     // printf("%d",bit);
     int mask=1<<(i-1);
