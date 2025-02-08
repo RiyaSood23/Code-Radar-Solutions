@@ -14,6 +14,6 @@ int main() {
         count+=1;
 
     }
-    printf("&d",sum);
+    printf("%d",sum);
     return 0;
 }
