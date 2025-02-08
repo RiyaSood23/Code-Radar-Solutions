@@ -9,22 +9,22 @@ int main() {
     char x;
     scanf("%d %d %c",&a,&b,&x);
     switch (x){
-    case "+" : //( x='+'){
+    case '+' : //( x='+'){
         {
             printf("%d",a+b);
             break;
     }
-    case "-": //( x='-'){
+    case '-': //( x='-'){
         {
         printf("%d",a-b);
         break;
     }
-    case "*": //( x='*')
+    case '*': //( x='*')
     {
         printf("%d",a*b);
         break;
     }
-    case "/" : //( x="/")
+    case '/' : //( x="/")
     {
         printf("%d",a/b);
         break;
