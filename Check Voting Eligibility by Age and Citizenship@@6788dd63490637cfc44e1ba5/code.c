@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int age,citizen;
-    scanf("%d %d",&citizen,&age);
+    scanf("%d %d",&age,&citizen);
     if (citizen==1){
         if(age>=18){
             printf("Eligible");
