@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
@@ -6,14 +5,15 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        for (int    j = 1; j <= n - i; j++) {
-            printf("  ");
+        for (int s = 1; s <= n - i; s++) {
+            printf(" ");
         }
-        for (int k = i; k >= 1; k--) {
-            printf("%d ", k);
+        for (int j = 1; j <= i; j++) {
+            printf("%d", j);
         }
-        for (int p = 2; p <= i; p++) {
-            printf("%d ", p);
+
+        for (int j = i - 1; j >= 1; j--) {
+            printf("%d", j);
         }
 
         printf("\n");
