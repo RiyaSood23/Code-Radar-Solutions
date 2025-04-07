@@ -1,7 +1,12 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a[6] = {34,69,68,18,81,7};
+    int n;
+    scanf("%d",&n);
+    int a[];
+    for (i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
     int i,j,temp;
     for(i=0;i<5;i++){
         for(j=0;j<5-i;j++){
