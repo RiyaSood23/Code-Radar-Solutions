@@ -1,15 +1,15 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int n ; 
-    scanf("%c",&n);
+    int n;
+    scanf("%d", &n);
+
     for (int i = 1; i <= n; i++) {
-        for (int s = 1; s <= n - i; s++) {
+        for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
         char ch = 'A';
-        for (int j = 1; j <= i; j++) {
+        for (int k = 1; k <= i; k++) {
             printf("%c ", ch);
             ch++;
         }
@@ -19,5 +19,3 @@ int main() {
 
     return 0;
 }
-
-
