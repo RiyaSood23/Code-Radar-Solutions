@@ -5,11 +5,18 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        int value = 1; 
+        int value;
+        if (i % 2 == 0) {
+            value = 0;
+        } else {
+            value = 1;
+        }
+
         for (int j = 1; j <= i; j++) {
-            printf("%d ", value);
+            printf("%d", value);
             value = 1 - value; 
         }
+
         printf("\n");
     }
 
