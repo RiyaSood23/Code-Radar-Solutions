@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
@@ -6,8 +5,10 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
+        int value = 1; 
         for (int j = 1; j <= i; j++) {
-            printf("%d ", (i + j) % 2);
+            printf("%d ", value);
+            value = 1 - value; 
         }
         printf("\n");
     }
